@@ -6,7 +6,8 @@ from flask import Flask, request, abort
 
 app = Flask(__name__)
 
-WEBHOOK_SECRET = 'YOUR_WEBHOOK_SECRET'
+# You can find your Webhook's Secret in the Dashboard at https://app.usebutton.com/webhooks on the page for a specific Webhook.
+WEBHOOK_SECRET = 'YOUR_WEBHOOK_SECRET' # Do not publicly expose this
 
 @app.route('/webhook', methods=['POST'])
 def webhook():

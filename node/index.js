@@ -6,7 +6,8 @@ var crypto = require('crypto');
 
 var port = process.env.PORT || 5000;
 
-var WEBHOOK_SECRET = 'YOUR_WEBHOOK_SECRET'
+// You can find your Webhook's Secret in the Dashboard at https://app.usebutton.com/webhooks on the page for a specific Webhook.
+var WEBHOOK_SECRET = 'YOUR_WEBHOOK_SECRET' // Do not publicly expose this
 
 app.use(bodyParser.json({ verify: verify, type: 'application/json' }));
 

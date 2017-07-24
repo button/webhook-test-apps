@@ -9,7 +9,7 @@ Each folder contains a functioning test app for Node.js, Ruby, and Python. Each 
 2. Install dependencies:
   - For Node.js, `npm install`
   - For Ruby, `bundle install`
-3. Open up either the `index.js`, `index.rb`, or `index.py` and replace your `'WEBHOOK_SECRET'` with your webhook secret found in your [webhook dashboard](https://app.usebutton.com/webhooks).
+3. Open up either the `index.js`, `index.rb`, or `index.py` and replace your `'WEBHOOK_SECRET'` with your webhook secret found in your [webhook dashboard](https://app.usebutton.com/webhooks) after clicking into the the webhook you want to test from that list.
 4. Run the app:
   - For Node.js, `node index.js`
   - For Ruby, `ruby index.rb`

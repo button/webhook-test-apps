@@ -13,7 +13,7 @@ Each folder contains a functioning test app for Node.js, Ruby, and Python. Each 
 4. Run the app:
   - For Node.js, `node index.js`
   - For Ruby, `ruby index.rb`
-  - For Python, `python python.py`
+  - For Python, `python index.py`
 5. Open up a local tunnel using [ngrok](https://ngrok.com/) to the local port specified after the previous step. Typically, for Node.js it will be port `5000`, for Ruby it will be port `4567`, and for Python it will be port `5000`.
 6. Set the URL given by ngrok on the [webhook dashboard](https://app.usebutton.com/webhooks).
 7. Send a test webhook by selecting the `Ping` button on the [webhook dashboard](https://app.usebutton.com/webhooks).
